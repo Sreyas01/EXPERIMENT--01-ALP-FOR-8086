@@ -77,6 +77,32 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
+```
+org 100h
+
+MOV AX, 04456H
+MOV BX, 00333H
+ADD AX, BX
+MOV [5000H], AX
+
+MOV AX, 0F345H
+MOV CX, 2222H
+SUB AX, CX
+MOV [5002H], AX
+
+MOV AX, 01234H
+MOV BX, 09H
+MUL BX
+MOV [5004H], AX
+
+MOV AX, 0FFFFH
+MOV CX, 03H
+DIV CX
+MOV [5006H], AX
+
+ret
+```
+
 <img width="1683" height="1118" alt="Screenshot 2026-01-30 085337" src="https://github.com/user-attachments/assets/d02a72c6-e4fe-40a3-a137-5266569230b4" />
 
 ## Programs for logical operations
