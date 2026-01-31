@@ -1,8 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-##Name :M.Sreyas
-##Roll no :212224040323
-##Date of experiment :30/01/2026
-
+ ```
+Name :M.Sreyas
+Roll no :212224040323
+Date of experiment :30/01/2026
+```
 
 
 
